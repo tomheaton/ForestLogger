@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         ForestLogger logger = new ForestLogger("test");
-        logger.info("lets go");
+
+        logger.info("information here");
+        logger.warn("warning here");
+        logger.error("error here");
     }
 }
