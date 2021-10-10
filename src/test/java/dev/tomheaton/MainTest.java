@@ -1,9 +1,9 @@
 package dev.tomheaton;
 
-public class Main {
+public class MainTest {
 
     public static void main(String[] args) {
-        ForestLogger logger = new ForestLogger("main");
+        ForestLogger logger = new ForestLogger("test");
 
         logger.info("information here");
         logger.warn("warning here");
