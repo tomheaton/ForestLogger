@@ -28,14 +28,14 @@ public class ForestLogger {
     }
 
     public void info(String message) {
-        System.out.println(Colours.ANSI_RED + message);
+        System.out.println(Colours.ANSI_GREEN + message);
     }
 
     public void error(String message) {
-        System.out.println(message);
+        System.out.println(Colours.ANSI_RED + message);
     }
 
     public void warn(String message) {
-        System.out.println(message);
+        System.out.println(Colours.ANSI_YELLOW + message);
     }
 }
